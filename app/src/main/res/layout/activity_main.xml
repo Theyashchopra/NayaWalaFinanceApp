@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <LinearLayout
+        tools:context=".MainActivity"
+        android:id="@+id/linear1"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:text="Enter Your Name"
+        style="@style/LoginStyle"
+        />
+    <EditText
+        android:id="@+id/edit1"
+        android:hint="Name here"
+        android:inputType="text"
+        android:autofillHints="your name"
+        style="@style/LoginStyle"/>
+
+    <Button
+        android:text="Next"
+        android:onClick="change"
+        style="@style/LoginStyle"
+        android:layout_width="wrap_content"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:id="@+id/gender"
+        >
+        <TextView
+            android:text="What is your gender?"
+            style="@style/LoginStyle"
+            />
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:id="@+id/radioGroup"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:text="Male"
+                android:id="@+id/radiomale"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="25sp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:text="Female"
+                android:id="@+id/radiofemale"
+                android:layout_gravity="center_horizontal"
+                android:checked="false"
+                android:textSize="25sp"/>
+        </RadioGroup>
+        <Button
+            android:text="Next"
+            android:onClick="change1"
+            style="@style/LoginStyle"
+            android:layout_width="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        tools:context=".MainActivity"
+        android:id="@+id/linear2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Enter Your income"
+            style="@style/LoginStyle"
+            />
+        <EditText
+            android:id="@+id/edit_income"
+            android:hint="Income here in rupees"
+            android:autofillHints="Your income"
+            android:inputType="number"
+            style="@style/LoginStyle"/>
+
+        <Button
+            android:text="Next"
+            android:onClick="change2"
+            style="@style/LoginStyle"
+            android:layout_width="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_gravity="center"
+            tools:context=".MainActivity"
+            android:id="@+id/linear3"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Date of Income"
+                style="@style/LoginStyle"
+                />
+            <EditText
+                android:id="@+id/edit3"
+                android:hint="Enter a Date"
+                android:autofillHints="date"
+                android:inputType="numberDecimal"
+                style="@style/LoginStyle"/>
+            <Button
+                android:text="Finish"
+                style="@style/LoginStyle"
+                android:layout_width="wrap_content"
+                android:onClick="nextactivity"/>
+</LinearLayout>
+</LinearLayout>

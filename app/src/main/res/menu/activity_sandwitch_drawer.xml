@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_back_home_new"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_data_analysis"
+            android:icon="@drawable/ic_back_data_new"
+            android:title="Data Analysis" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_back_share_new"
+            android:title="share data" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_back_about_new"
+            android:title="about" />
+    </group>
+</menu>

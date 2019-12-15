@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_spent"
+        style="@style/LoginStyle"
+        android:layout_centerHorizontal="true"
+        android:text="Money Spent"
+        android:layout_above="@id/moneySpent"/>
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/moneySpent"
+        style="@style/LoginStyle"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_above="@id/text_left"/>
+    <TextView
+        android:id="@+id/text_left"
+        style="@style/LoginStyle"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Money Left"
+        android:layout_above="@id/moneyleft"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/moneyleft"
+        style="@style/LoginStyle"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    <!-- button on left bottom corner-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/ic_plus_sign"
+        tools:ignore="VectorDrawableCompat"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+[33mcommit 94c4f1c688ad3a68d8a46485bfce9778c548c628[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: yash chopra <yashchopra630@gmail.com>
+Date:   Fri Dec 13 21:02:50 2019 +0530
+
+    date insertion bug fix
+    menu updated
+
+[33mcommit 57144115ce4aad8c85c787bce861fc8460253c6a[m
+Author: yash chopra <yashchopra630@gmail.com>
+Date:   Thu Dec 12 10:21:24 2019 +0530
+
+    navigation bar updated
+
+[33mcommit 9d2d1a3d3a163b4d2d4b8dcaca92c4121bdfcb74[m
+Author: yash chopra <yashchopra630@gmail.com>
+Date:   Tue Dec 10 22:24:56 2019 +0530
+
+    registration launches only one time and splash screen added
+
+[33mcommit cbdbd51cf64a48fdb7a04fff6993b2e093857037[m
+Author: yash chopra <yashchopra630@gmail.com>
+Date:   Sat Dec 7 20:36:11 2019 +0530
+
+    Money spent is not getting updated
+
+[33mcommit c1637de75b521e65d3c9eb686b93413f156c04ce[m
+Author: yash chopra <yashchopra630@gmail.com>
+Date:   Fri Dec 6 22:20:31 2019 +0530
+
+    add expense structure partially complete
+
+[33mcommit ee802d6795ddb44d69ad5e44a151c0a367614f94[m
+Author: yash chopra <yashchopra630@gmail.com>
+Date:   Thu Dec 5 21:45:57 2019 +0530
+
+    2nd still need to center add expense content
+
+[33mcommit 072d33f924b3d0873e7ffe13bab7f98156a36328[m
+Author: yash chopra <yashchopra630@gmail.com>
+Date:   Thu Dec 5 07:13:16 2019 +0530
+
+    First commit

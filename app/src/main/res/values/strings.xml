@@ -21,7 +21,8 @@
     <string name="load">Load</string>
     <string name="save">Save</string>
     <string name="db_drop">DROP TABLE IF EXISTS</string>
-    <string name="title_edit_text_hint">Enter the title</string>
-    <string name="content_edit_text_hint">Write your note here</string>
+    <string name="title_edit_text_hint">Enter the amount</string>
+    <string name="content_edit_text_hint">Write Description of Purchase</string>
+    <string name="saved_data">Saved Data</string>
 
 </resources>

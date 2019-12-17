@@ -20,5 +20,9 @@
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_back_about_new"
             android:title="about" />
+        <item
+            android:id="@+id/nav_Saved_data"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="@string/saved_data"/>
     </group>
 </menu>

@@ -34,7 +34,7 @@ public class ShareFragment extends Fragment {
         // Add data to the intent, the receiving app will decide
         // what to do with it.
         share.putExtra(Intent.EXTRA_SUBJECT, "Title Of The Post");
-        share.putExtra(Intent.EXTRA_TEXT, "http://www.codeofaninja.com");
+        share.putExtra(Intent.EXTRA_TEXT, "https://github.com/rahulmool/app");
 
         startActivity(Intent.createChooser(share, "Share link!"));
     }

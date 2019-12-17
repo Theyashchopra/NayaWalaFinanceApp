@@ -17,7 +17,6 @@
         android:backgroundTint="@color/colorEditTextUnderLine"
         android:hint="@string/title_edit_text_hint"
         android:inputType="number"
-        android:textColor="@android:color/white"
         android:textColorHint="@color/colorHintText"
         android:textSize="24sp" />
 
@@ -35,13 +34,10 @@
         android:layout_below="@id/title_edit_text"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:backgroundTint="@color/colorEditTextUnderLine"
         android:hint="@string/content_edit_text_hint"
-        android:textColorHint="@color/colorHintText"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        android:textColor="@android:color/white"
         android:textSize="16sp"/>
 
 </RelativeLayout>

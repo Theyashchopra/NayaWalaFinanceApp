@@ -3,11 +3,11 @@
     <color name="colorPrimary">#2196F3</color>
     <color name="colorPrimaryDark">#1976D2</color>
     <color name="colorAccent">#03A9F4</color>
-    <color name="colorBackground">#3F51B5</color>
-    <color name="colorFloatingButton">#2196F3</color>
-    <color name="colorItem">#F44336</color>
-    <color name="colorItemTitleText">#8BC34A</color>
-    <color name="colorItemContentText">#FFEB3B</color>
-    <color name="colorHintText">#8BC34A</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorFloatingButton">#A3B8C9</color>
+    <color name="colorItem">#F0E5E4</color>
+    <color name="colorItemTitleText">#171816</color>
+    <color name="colorItemContentText">#252522</color>
+    <color name="colorHintText">#1C1D1A</color>
     <color name="colorEditTextUnderLine">#00BCD4</color>
 </resources>

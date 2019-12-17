@@ -20,14 +20,23 @@
             android:name=".sandwitch"
             android:label="@string/title_activity_sandwitch"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SplashScreen">
+        <activity
+            android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".nav_head_changer" />
+        <activity android:name=".view.EditNoteActivity"
+            android:label="@string/Adex"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".view.NoteListActivity"
+            android:parentActivityName=".sandwitch" />
+        <activity android:name=".view.DisplayNoteActivity"
+            android:parentActivityName=".sandwitch"/>
+        <activity android:name=".nav_head_changer"
+            android:parentActivityName=".sandwitch"/>
     </application>
 
 
